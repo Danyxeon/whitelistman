@@ -1,6 +1,6 @@
-# banman-lite-whitelist
-A very simple plugin for whitelisting people on BeamMP servers based on my other plugin "banman-lite".
+# WhitelistManager
+A simple plugin for whitelisting people on BeamMP servers based on my other plugin "banman".
 
-To install just move the main.lua file into Resources/Server/banman-lite-whitelist/. Whitelist file needs to be in the "banman-lite-whitelist" folder.
+To install just move the whitelistman folder into ```Resources/Server/``` Whitelist should be placed a directory up from the directory where the BeamMP-server executable is.
 
-To add whitelisted users, just add the names to the whitelist on separate lines. Whitelist is case sensitive.
+Uses the same commands as BanMan except has no ban functionality. To whitelist people use ```/whitelist (username)``` on the server.
